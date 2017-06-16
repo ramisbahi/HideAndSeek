@@ -12,6 +12,11 @@
 		97D17BD11EF3191D00688E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D17BCF1EF3191D00688E26 /* Main.storyboard */; };
 		97D17BD31EF3191D00688E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D17BD21EF3191D00688E26 /* Assets.xcassets */; };
 		97D17BD61EF3191D00688E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D17BD41EF3191D00688E26 /* LaunchScreen.storyboard */; };
+		97D17BDE1EF31C0A00688E26 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D17BDD1EF31C0A00688E26 /* Player.swift */; };
+		97D17BE01EF31C6500688E26 /* HideSeekRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D17BDF1EF31C6500688E26 /* HideSeekRunner.swift */; };
+		97D17BE21EF3201200688E26 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D17BE11EF3201200688E26 /* SettingsViewController.swift */; };
+		97D17BE71EF3633100688E26 /* Buzz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97D17BE61EF3633100688E26 /* Buzz.mp3 */; };
+		97D17BEC1EF366A200688E26 /* TotalReady.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97D17BEB1EF366A200688E26 /* TotalReady.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		97D17BD21EF3191D00688E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97D17BD51EF3191D00688E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97D17BD71EF3191D00688E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D17BDD1EF31C0A00688E26 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		97D17BDF1EF31C6500688E26 /* HideSeekRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideSeekRunner.swift; sourceTree = "<group>"; };
+		97D17BE11EF3201200688E26 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		97D17BE61EF3633100688E26 /* Buzz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buzz.mp3; sourceTree = "<group>"; };
+		97D17BEB1EF366A200688E26 /* TotalReady.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TotalReady.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				97D17BCB1EF3191D00688E26 /* AppDelegate.swift */,
 				97D17BCD1EF3191D00688E26 /* ViewController.swift */,
+				97D17BDF1EF31C6500688E26 /* HideSeekRunner.swift */,
+				97D17BE61EF3633100688E26 /* Buzz.mp3 */,
+				97D17BDD1EF31C0A00688E26 /* Player.swift */,
+				97D17BEB1EF366A200688E26 /* TotalReady.mp3 */,
 				97D17BCF1EF3191D00688E26 /* Main.storyboard */,
 				97D17BD21EF3191D00688E26 /* Assets.xcassets */,
 				97D17BD41EF3191D00688E26 /* LaunchScreen.storyboard */,
 				97D17BD71EF3191D00688E26 /* Info.plist */,
+				97D17BE11EF3201200688E26 /* SettingsViewController.swift */,
 			);
 			path = HideAndSeek;
 			sourceTree = "<group>";
@@ -96,6 +111,7 @@
 				TargetAttributes = {
 					97D17BC71EF3191D00688E26 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JJ3T82U92L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97D17BD61EF3191D00688E26 /* LaunchScreen.storyboard in Resources */,
+				97D17BE71EF3633100688E26 /* Buzz.mp3 in Resources */,
+				97D17BEC1EF366A200688E26 /* TotalReady.mp3 in Resources */,
 				97D17BD31EF3191D00688E26 /* Assets.xcassets in Resources */,
 				97D17BD11EF3191D00688E26 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				97D17BCE1EF3191D00688E26 /* ViewController.swift in Sources */,
+				97D17BDE1EF31C0A00688E26 /* Player.swift in Sources */,
 				97D17BCC1EF3191D00688E26 /* AppDelegate.swift in Sources */,
+				97D17BE21EF3201200688E26 /* SettingsViewController.swift in Sources */,
+				97D17BE01EF31C6500688E26 /* HideSeekRunner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +280,10 @@
 		97D17BDB1EF3191D00688E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = JJ3T82U92L;
 				INFOPLIST_FILE = HideAndSeek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramisbahi.HideAndSeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,8 +294,10 @@
 		97D17BDC1EF3191D00688E26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = JJ3T82U92L;
 				INFOPLIST_FILE = HideAndSeek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramisbahi.HideAndSeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
